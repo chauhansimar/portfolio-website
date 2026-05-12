@@ -5,7 +5,7 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  workExperiences,
+
   skillsSection,
   openSource,
   blogSection,
@@ -79,12 +79,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
+<li>
+  <div>
+    <ToggleSwitch />
+  </div>
+</li>
         </ul>
       </header>
     </Headroom>
