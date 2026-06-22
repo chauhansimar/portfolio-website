@@ -21,13 +21,13 @@ const illustration = {
 
 const greeting = {
   username: "Simarjit Singh",
-  title: "Simarjit Singh  ",
+  title: "Simarjit Singh",
   subTitle: emoji(
     "Passionate MERN Stack Developer and CSE student focused on building scalable web applications, solving complex problems, and continuously learning modern technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1LDm9AlQW_ef5J1P2Ae_QJxERIg19XPc5/view?usp=drive_link", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1LDm9AlQW_ef5J1P2Ae_QJxERIg19XPc5/view",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -389,18 +389,19 @@ const podcastSection = {
 };
 
 // Resume Section
+// Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
+    resumeLink: "/Simarjit_Singh_Resume.pdf",
 
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Open to internships, freelance opportunities, collaborations, and exciting software development projects. Feel free to connect with me 🚀",
+    "Open to internships, and exciting software development projects. Feel free to connect with me 🚀",
   number: "+91 9878091699",
   email_address: "chauhansimar22@gmail.com"
 };
