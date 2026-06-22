@@ -23,7 +23,7 @@ const greeting = {
   username: "Simarjit Singh",
   title: "Simarjit Singh",
   subTitle: emoji(
-    "Passionate MERN Stack Developer and CSE student focused on building scalable web applications, solving complex problems, and continuously learning modern technologies."
+    "Passionate MERN Stack Developer and CSE student focused on building scalable web applications."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1LDm9AlQW_ef5J1P2Ae_QJxERIg19XPc5/view",
