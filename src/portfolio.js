@@ -26,7 +26,7 @@ const greeting = {
     "Passionate MERN Stack Developer and CSE student focused on building scalable web applications, solving complex problems, and continuously learning modern technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1JbxEclHUlpV6zichGkljB_r1e2Uq8lOH/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1LDm9AlQW_ef5J1P2Ae_QJxERIg19XPc5/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
